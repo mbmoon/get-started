@@ -1,0 +1,5 @@
+jupyter==1.0.0
+six==1.16.0
+opencv-python==4.8.1.78
+numpy==1.26.1
+scikit-image==0.22.0
