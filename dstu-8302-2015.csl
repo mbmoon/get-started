@@ -2,7 +2,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="uk-UA">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>DSTU 8302-2015-v1</title>
+    <title>DSTU 8302-2015-v2</title>
     <id>http://www.zotero.org/styles/dstu-8302-2015</id>
     <link href="http://www.zotero.org/styles/dstu-8302-2015" rel="self"/>
     <author>
@@ -215,7 +215,7 @@
           <text macro="section-title" suffix=". "/>
           <text macro="container-title" suffix=". "/>
           <text variable="URL" prefix="URL: " suffix=" "/>
-          <text macro="access-date" suffix=". "/>
+          <text macro="accessed" prefix="дата звернення: " suffix=". "/>
         </else-if>
         <else>
           <text macro="author-all" suffix=" "/>
