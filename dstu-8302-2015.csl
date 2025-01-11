@@ -210,14 +210,12 @@
             <text variable="container-title" prefix="(" suffix=")"/>
           </group>
         </else-if>
-          <else-if type="post-weblog post webpage" match="any">
+        <else-if type="post-weblog post webpage" match="any">
           <text macro="author-all" suffix=" "/>
-          <text macro="abstract_insert" prefix=" " suffix=". "/>
           <text macro="section-title" suffix=". "/>
           <text macro="container-title" suffix=". "/>
-          <text macro="abstract_insert" suffix=". "/>
-          <text macro="If_event_date_exists" suffix=". "/>
-          <text macro="URL_insert"/>
+          <text variable="URL" prefix="URL: " suffix=" "/>
+          <text macro="access-date" suffix=". "/>
         </else-if>
         <else>
           <text macro="author-all" suffix=" "/>
