@@ -2,7 +2,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="uk-UA">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>DSTU 8302-2015-v3</title>
+    <title>DSTU 8302-2015-v4</title>
     <id>http://www.zotero.org/styles/dstu-8302-2015</id>
     <link href="http://www.zotero.org/styles/dstu-8302-2015" rel="self"/>
     <author>
@@ -114,7 +114,7 @@
     <label variable="number-of-pages"/>
   </macro>
   <macro name="access">
-    <date variable="accessed" prefix="(access: " suffix=")">
+    <date variable="accessed" prefix="(дата звернення: " suffix=")">
       <date-part name="day" form="numeric-leading-zeros" suffix="."/>
       <date-part name="month" form="numeric-leading-zeros" suffix="."/>
       <date-part name="year" form="short"/>
@@ -222,7 +222,7 @@
           <text macro="section-title" suffix=". "/>
           <text macro="container-title" suffix=". "/>
           <text variable="URL" prefix="URL: " suffix=" "/>
-          <text macro="access" prefix="дата звернення: " suffix=". "/>
+          <text macro="access"
         </else-if>
         <else>
           <text macro="author-all" suffix=" "/>
