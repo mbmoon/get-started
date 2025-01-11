@@ -113,6 +113,13 @@
     <text variable="number-of-pages"/>
     <label variable="number-of-pages"/>
   </macro>
+  <macro name="access">
+    <date variable="accessed" prefix="(access: " suffix=")">
+      <date-part name="day" form="numeric-leading-zeros" suffix="."/>
+      <date-part name="month" form="numeric-leading-zeros" suffix="."/>
+      <date-part name="year" form="short"/>
+    </date>
+  </macro>
   <citation collapse="citation-number">
     <sort>
       <key variable="citation-number"/>
@@ -215,7 +222,7 @@
           <text macro="section-title" suffix=". "/>
           <text macro="container-title" suffix=". "/>
           <text variable="URL" prefix="URL: " suffix=" "/>
-          <text variable="accessed" prefix="дата звернення: " suffix=". "/>
+          <text macro="access" prefix="дата звернення: " suffix=". "/>
         </else-if>
         <else>
           <text macro="author-all" suffix=" "/>
