@@ -215,7 +215,7 @@
           <text macro="section-title" suffix=". "/>
           <text macro="container-title" suffix=". "/>
           <text variable="URL" prefix="URL: " suffix=" "/>
-          <text macro="accessed" prefix="дата звернення: " suffix=". "/>
+          <text variable="accessed" prefix="дата звернення: " suffix=". "/>
         </else-if>
         <else>
           <text macro="author-all" suffix=" "/>
